@@ -4,8 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voice Recognition Calculator</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div id="calculator">
+    <div class="voice-controls">
+    
+            <select id="languageSelect">Languages
+                <option value="" selected disabled>Languages</option>
+                <option value="en-US">English</option>
+                <option value="ko-KR">한국어 (Korean)</option>
+                <option value="my-MM">မြန်မာ (Burmese)</option>
+            </select>
+            <button id="micBtn" onclick="startVoiceInput()">🎤 Speak</button>
+        </div>
+ 
+    </div>
     
 </body>
 </html>
