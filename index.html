@@ -9,8 +9,8 @@
 <body>
 
     <div id="calculator">
+        <!-- Voice Controls -->
     <div class="voice-controls">
-    
             <select id="languageSelect">Languages
                 <option value="" selected disabled>Languages</option>
                 <option value="en-US">English</option>
@@ -20,6 +20,31 @@
             <button id="micBtn" onclick="startVoiceInput()">🎤 Speak</button>
         </div>
  
+        <!-- Calculator Buttons -->
+    <div class="buttons">
+        <button onclick="clearCalculator()" class="control-btn">AC</button>
+        <button onclick="getData(this)">(</button>
+        <button onclick="getData(this)">)</button>
+        <button onclick="getData(this)" class="operator-btn">/</button>
+        <button onclick="getData(this)">7</button>
+        <button onclick="getData(this)">8</button>
+        <button onclick="getData(this)">9</button>
+        <button onclick="getData(this)" class="operator">*</button>
+        <button onclick="getData(this)">4</button>
+        <button onclick="getData(this)">5</button>
+        <button onclick="getData(this)">6</button>
+        <button onclick="getData(this)" class="operator">-</button>
+        <button onclick="getData(this)">1</button>
+        <button onclick="getData(this)">2</button>
+        <button onclick="getData(this)">3</button>
+        <button onclick="getData(this)" class="operator">+</button>
+        <button onclick="getData(this)">0</button>
+        <button onclick="getData(this)">.</button>
+        <button onclick="getData(this)"class="equal">=</button>
+        <button onclick="getData(this)">%</button>
+
+    </div>
+
     </div>
     
 </body>
