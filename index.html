@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voice Recognition Calculator</title>
     <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+/>
 </head>
 <body>
 
@@ -17,15 +21,23 @@
                 <option value="ko-KR">한국어 (Korean)</option>
                 <option value="my-MM">မြန်မာ (Burmese)</option>
             </select>
-            <button id="micBtn" onclick="startVoiceInput()">🎤 Speak</button>
+
+            <button id="micBtn" class="voice-btn" aria-label="Voice input">
+            <i class="fa-solid fa-microphone"></i>
+            </button>
+
         </div>
+
+        <!-- Display Area -->
+    <div id="result">0</div>
+
  
         <!-- Calculator Buttons -->
     <div class="buttons">
         <button onclick="clearCalculator()" class="control-btn">AC</button>
         <button onclick="getData(this)">(</button>
         <button onclick="getData(this)">)</button>
-        <button onclick="getData(this)" class="operator-btn">/</button>
+        <button onclick="getData(this)" class="operator">/</button>
         <button onclick="getData(this)">7</button>
         <button onclick="getData(this)">8</button>
         <button onclick="getData(this)">9</button>
@@ -41,11 +53,11 @@
         <button onclick="getData(this)">0</button>
         <button onclick="getData(this)">.</button>
         <button onclick="getData(this)"class="equal">=</button>
-        <button onclick="getData(this)">%</button>
+        
 
     </div>
 
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
