@@ -1,5 +1,15 @@
 # Voice-Enabled Calculator
 
+##  Preview
+
+### Calculator
+
+![Calculator](calculator-screenshot.jpeg)
+
+### Voice Recognition
+
+![Voice Recognition](calculator-screenshot1.jpeg)
+
 A simple web-based calculator built with **HTML, CSS, and JavaScript**. This project combines basic calculator functionality with voice recognition, with a focus on exploring accessibility for people with visual impairments.
 
 ## Features
