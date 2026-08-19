@@ -4,11 +4,11 @@
 
 ### Calculator
 
-![Calculator](calculator-screenshot.jpeg)
+![Calculator](Screenshot 2026-08-19 at 4.46.24 PM.jpeg)
 
 ### Voice Recognition
 
-![Voice Recognition](calculator-screenshot1.jpeg)
+![Voice Recognition]()
 
 A simple web-based calculator built with **HTML, CSS, and JavaScript**. This project combines basic calculator functionality with voice recognition, with a focus on exploring accessibility for people with visual impairments.
 
